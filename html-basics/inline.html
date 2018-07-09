@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="description">
+	<title>Inline Elements</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/inline.css" />
+	<link rel="stylesheet" href="css/all.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="container"><!-- /.container -->
+		<header id="header">
+			<h1 class="title">Inline elements</h1>
+		</header>
+
+		<main>			
+			<div class="define">
+				<dl>
+					<dt>Inline elements</dt>
+					<dd>Inline elements typically contain text  and other  inline elements. When rendered visually, inline elements  do not usually begin on a new line</dd>
+					<dd>An inline element does not start on a new line and only takes up as much width as necessary</dd>
+				</dl>
+			</div>
+
+			<div id="anchor" class="section">
+				<h4 class="tags">&lt;a&gt; &minus; An anchor element creates an hyperlink to other webpages, files, locations within the same page, email address or any other URL</h4>
+				<a href="https://www.linkedin.com/">LinkedIn</a>
+				<p>send mail to me at <a href="mailto:nitu@dzineden.com">nitu@dzineden.com</a></p>
+				<p>view my profile <a href="http://iamnitu.com/" target="_blank">iamnitu.com</a></p>
+			</div>
+
+			<div id="abbr" class="section">
+				<h4 class="tags">&lt;abbr&gt; &minus; It represents an abbrevation or acronym</h4>
+				<p>A document type declaration, or DOCTYPE, is an instruction that associates a particular <abbr title="Standard Generalized Markup Language">SGML</abbr> or <abbr title="Extensible Markup Language">XML</abbr> document (for example, a webpage) with a document type definition (DTD) (for example, the formal definition of a particular version of HTML1.0 - HTML 4.0)</p>
+			</div>
+
+			<div id="bold" class="section">
+				<h4 class="tags">&lt;b&gt; &minus; Create or represent bold text in an HTML document</h4>
+				<p>The purpose of <b>Responsive design</b> is to have one site, but with different elements that respond differently when viewed on devices of different sizes.</p>
+			</div>
+
+			<div id="bdo" class="section">
+				<h4 class="tags">&lt;bdo&gt; &minus; Bidirectional text override element</h4>
+				<p>This text will go left to right</p>
+				<p><bdo dir="rtl">This text will go right to left</bdo></p>
+			</div>
+
+			<div id="linebreak" class="section">
+				<h4 class="tags">&lt;br&gt; &minus; Produces a line break in text</h4>
+				<p>Beautiful city, the centre and crater of European confusion,<br>
+					O you with your passionate shriek for the rights of an equal humanity,<br>
+					How often your Re-volution has proven but E-volution<br>
+					Roll’d again back on itself in the tides of a civic insanity!</p>
+			</div>
+
+			<div id="btn" class="section">
+				<h4 class="tags">&lt;button&gt; &minus; Represents a clickable button, which can be used in forms and other sections</h4>
+				<button>click me</button>
+				<p><button disabled>disabled button</button></p>
+				<button type="submit" value="submit">send message</button>
+			</div>
+
+			<div id="cite" class="section">
+				<h4 class="tags">&lt;cite&gt; &minus; Describe a reference to a cited creative work, title, or URL</h4>
+				<p>Sir Timothy John Berners-Lee(born 8 June 1955),[1] also known as TimBL, is an English engineer and computer scientist, best known as the inventor of the <cite><a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">World Wide Web</a></cite></p>
+			</div>
+
+			<div id="code" class="section">
+				<h4 class="tags">&lt;code&gt; &minus; It indicates that the text is a short fragment of computer code</h4>
+				<p>The <code>$.get()</code> method loads data from the server using a HTTP GET request</p>
+			</div>
+
+			<div id="define" class="section">
+				<h4 class="tags">&lt;dfn&gt; &minus; Indicates the term being defined within the context of a definition phrase or sentence</h4>
+				<p>A common <a href="#def-validator">validator</a>for HTML is the <a href="https://validator.w3.org/">W3C Markup Validation Service</a></p>
+			</div>
+
+			<div id="emphasis" class="section">
+				<h4 class="tags">&lt;em&gt; &minus; Marks text that has stress emphasis</h4>
+				<p>&quot;What is your occupation&quest;&quot; asked Jane</p>
+				<p>&quot;I am a comedian&quot; replied Harry</p>
+				<p>&quot;Did you say that you are a <em>chameleon</em></p>
+				<p>&quot;No&quot;, said Harry, &quot;I am a <em>comedian</em>&quot;</p>
+			</div>
+
+			<div id="italics" class="section">
+				<h4 class="tags">&lt;i&gt; &minus; Typically displayed in italic type, used to indicate a technical term, phrase or a thought</h4>
+				<p>The term <i>bandwidth</i> describes the measure of how much information can pass through a data connection in a given amount of time.</p>
+				<i class="fab fa-html5"></i>
+
+			</div>
+
+			<div id="img" class="section">
+				<h4 class="tags">&lt;img&gt; &minus; It embeds an image into the document</h4>
+				<img src="images/banner-mobile.png" alt="mobile" width="240" />
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus id nobis accusantium temporibus vitae voluptas odit cupiditate minima quasi voluptatum, assumenda, autem laudantium! Unde qui, amet nisi iusto tenetur esse corporis, hic nemo asperiores reprehenderit repudiandae fugit, nulla sint ipsum eaque. Molestias illum commodi assumenda dolores exercitationem modi optio quisquam.</p>
+			</div>
+
+			<div id="input" class="section">
+				<h4 class="tags">&lt;input&gt; &minus; It is used to create interactive controls for web-based forms in order to accept data from the user</h4>
+				<fieldset>
+					<legend>Contact form</legend>
+					<form>
+						<div class="name">
+							<label>Name :</label>
+							<input type="text" id="name" placeholder="Enter Your Name" required>
+						</div>
+						<div class="email">
+							<label>Email ID:</label>
+							<input type="text" id="email" placeholder="Enter your email ID" required>
+						</div>
+						<div class="contact">
+							<label>Contact No:</label>
+							<input type="text" id="contact" placeholder="Phone No" required>
+						</div>
+						<div class="msg">
+							<span>Message</span>
+							<textarea name="message" id="msg" cols="30" rows="10"></textarea>
+						</div><!-- /.msg -->
+					</form>
+				</fieldset>
+			</div>
+
+			<div id="kbd" class="section">
+				<h4 class="tags">&lt;kbd&gt; &minus; It's used to  identify text that represents user keyboard input</h4>
+			<p>Use the command <kbd>help mycommand</kbd> to view documentation for the command "mycommand"</p>
+			<p>Hold the <kbd>Ctrl key </kbd>and click the <kbd>Reload</kbd> button on the navigation toolbar.</p>
+			</div>
+
+			<div id="map" class="section">
+				<h4 class="tags">&lt;map&gt; &minus; It's used with area element to define an image</h4>
+				<map name="primary">
+				  <area shape="circle" coords="75,75,75" href="left.html">
+				  <area shape="circle" coords="275,75,75" href="right.html">
+				</map>
+				<img usemap="#primary" src="https://placehold.it/350x150" alt="350 x 150 pic">
+			</div>
+
+			<div id="object" class="section">
+				<h4 class="tags">&lt;object&gt; &minus; Defines an embedded object within an HTML document</h4>
+				<object type="application/pdf" 
+				data="/media/examples/pdf_open_parameters.pdf" 
+				width="300" 
+				height="200">
+				</object>
+				<footer><a href="https://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/pdf_open_parameters.pdf">PDF</a> by Adobe</footer>
+			</div>
+
+			<div id="quotes" class="section">
+				<h4 class="tags">&lt;q&gt; &minus; Indicates that the enclosed text ia short inline quotation</h4>
+				<div>
+					<p>Here comes a short quotation: <q> here is a short quotation </q></p>
+				</div>
+			</div>
+
+			<div id="sample" class="section">
+				<h4 class="tags">&lt;samp&gt; &minus; It is used to identify a sample output from a computer program</h4>
+				<div>
+					<p>My computer says <samp>googd morning!</samp> everytine I start it....</p>
+				</div>
+			</div>
+
+			<div id="select" class="section">
+				<h4 class="tags">&lt;select&gt; &minus; Represents a control that provides a menu of options</h4>
+				<label>Choose an option from the drop down list</label>
+				<select id="drop-down">
+					<option value="Page-1">Page 1</option>
+					<option value="Page-2">Page 2</option>
+					<option value="Page-3">Page 3</option>
+					<option value="Page-4">Page 4</option>
+					<option value="Page-5">Page 5</option>
+					<option value="Page-6">Page 6</option>
+				</select>
+			</div>
+
+			<div id="small" class="section">
+				<h4 class="tags">&lt;small&gt; &minus; The tag makes text one font size smaller in the HTML document</h4>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil optio neque deserunt voluptas quibusdam <small>illo atque necessitatibus</small> dicta temporibus blanditiis, rem! Quia repellendus optio maiores necessitatibus consequatur facere, reprehenderit veniam?</p>
+				</div>
+			</div>
+
+			<div id="span" class="section">
+				<h4 class="tags">&lt;span&gt; &minus; The tag makes text one font size smaller in the HTML document</h4>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil optio neque deserunt voluptas quibusdam <small>illo atque necessitatibus</small> dicta temporibus blanditiis, rem! Quia repellendus optio maiores necessitatibus consequatur facere, reprehenderit veniam?</p>
+				</div>
+			</div>
+
+			<div id="strong" class="section">
+				<h4 class="tags">&lt;strong&gt; &minus; This element is used to identify text that is of greater importance than the surrounding text</h4>
+				<div>
+					<p><strong>Danger: Swimming in this area is restricted. Do not enter the water</strong></p>
+				</div>
+			</div>
+
+			<div id="sub" class="section">
+				<h4 class="tags">&lt;sub&gt; &minus; Subscripts are typically rendered with a lowered baseline using smaller text</h4>
+				<div>
+					<p>The molecular formula for sucrose is C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>. Each sugar molecule contains 12 carbon atoms, 22 hydrogen atoms, and 11 oxygen atoms.</p>
+				</div>
+			</div>
+
+			<div id="sup" class="section">
+				<h4 class="tags">&lt;sup&gt; &minus; Superscripts are typically rendered with a raised baseline using smaller text</h4>
+				<div>
+					<p>a<sup>2</sup> + 2ab + b<sup>2</sup> = (a+b)<sup>2</sup></p>
+				</div>
+			</div>
+
+			<div id="textarea" class="section">
+				<h4 class="tags">&lt;textarea&gt; &minus; Defines a multi-line text input control. It can hold an unlimited number of characters</h4>
+				<div>
+					<label>Message</label>
+					<textarea name="message" id="msg-box" row="4" cols="40" maxlength="200" wrap="hard"></textarea>
+				</div>
+			</div>
+
+			<div id="time" class="section">
+				<h4 class="tags">&lt;time&gt; &minus; It represents a specific period in time</h4>
+				<div>
+					<p>on Saturday's we open at <time>9:00</time></p>
+					<p>The concert is <time datetime="2009-02-18">next Wednesday</time>.</p>
+					<p>We finally hit the road at <time datetime="2009-02-17T05:00-07:00">5am last Tuesday</time>.</p>
+				</div>
+			</div>
+
+			<div id="var" class="section">
+				<h4 class="tags">&lt;var&gt; &minus; Represents the name of a variable in a mathematical expression or a programming context</h4>
+				<div>
+					<p>The volume of a cube is <var>l</var>x<var>w</var>x<var>h</var>, where l represents the length, width represents the width and h the height of the box</p>
+				</div>
+			</div>
+		</main>
+
+	</div><!-- end of container -->
+
+
+
+</body>
+</html>
+

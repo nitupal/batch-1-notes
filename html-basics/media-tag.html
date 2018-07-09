@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>media tags</title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+body{
+	margin: 0;
+}
+.container{
+	padding: 10px;
+}
+#video{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: solid 1px red;
+}
+	video{
+		display: block;
+	}
+	#gmap{
+		text-align: center;
+	}
+	.hero-banner{
+		display: block;
+		width: 100%;
+		border: solid 2px red;
+	}
+</style>
+<body>
+	<div class="container">
+
+	<h1>Media tags</h1>
+
+	<h3>&lt;video&gt;</h3>
+	<p>It embeds a media player which supports video playback into the document</p>
+	<section id="video">
+		<video 
+		controls
+		buffered 
+		src="videos/A Beginner's Web Design Tutorial for 2018 - Part 1 of 2.mp4"
+		poster="images/coursetro.png" width="1280" height="400">
+		</video>
+	</section><!-- /#video -->
+
+	<h3>&lt;audio&gt;</h3>
+	<p>It embeds sound content in the documents</p>
+	<section id="audio">
+		<audio controls loop src="audio/lion_roar.mp3"></audio>
+	</section><!-- /#audio -->
+
+	<h3>&lt;embed&gt;</h3>
+	<p>It embeds external content at the specified point in the document</p>
+	<section id="embed">
+		<embed src="videos/A Beginner's Web Design Tutorial for 2018 - Part 1 of 2.mp4" type="video/mp4" controls />
+	</section><!-- /#embed -->
+
+	<h3>&lt;iframe&gt;</h3>
+	<section id="iframe">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/8mG8CKDstZE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</section><!-- /#iframe -->
+	<section id="gmap">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15552.550904850175!2d77.62686561734338!3d12.963037614730847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae141b7a99d35f%3A0x8259caa76fcf598e!2sDomlur%2C+Bengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1531036949942" width="1170" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+
+	<section>
+		<img src="images/hero-banner.png" alt="" class="hero-banner">
+	</section>
+
+
+
+
+	</div><!-- /.container -->
+</body>
+</html>
