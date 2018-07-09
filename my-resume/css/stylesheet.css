@@ -1,0 +1,36 @@
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	border: solid 1px blue;
+}
+
+.site-logo{
+	background-color: lightblue;
+	width: 60px;
+	height: 50px;
+	padding: 8px;
+	text-align: center;
+	line-height: 50px;
+}
+.site-logo span{
+	font-family: sans-serif;
+	color: blue;
+	font-size: 40px;
+}
+
+.active{
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
