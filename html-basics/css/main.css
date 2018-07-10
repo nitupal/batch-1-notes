@@ -83,3 +83,12 @@ header{
 	border: solid 4px blue;
 }
 
+.img-res img{
+	display: block;
+	width: 100%;
+}
+
+.hero-banner img{
+	display: block;
+	min-width: 980px;
+}
