@@ -1,0 +1,56 @@
+#list-item{
+	border: solid 1px red;
+	font-family: sans-serif;
+	background-color: lightgreen;
+	font-size: 30px;
+}
+
+
+.parent{
+	border: solid 1px red;
+}
+
+header{
+	font-size: 34px;
+	border: dashed 2px red;
+}
+
+p{
+	font-size: 16px;
+	color: red;
+}
+
+#article{
+	margin-top: 60px;
+	padding: 30px 10px;
+	border: solid 1px green;
+}
+#article .about.box-2{
+	background-color: pink;
+	color: red;
+}
+#article .about.box-2 p{
+	font-size: 24px;
+}
+.about{
+	border: solid 1px red;
+	margin-bottom: 20px;
+}
+.about p, span{
+	font-size: 16px;
+	color: #424242;
+	font-family: sans-serif;
+}
+
+#section{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
