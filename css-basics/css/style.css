@@ -1,4 +1,4 @@
-#list-item{
+/*#list-item{
 	border: solid 1px red;
 	font-family: sans-serif;
 	background-color: lightgreen;
@@ -44,7 +44,73 @@ p{
 
 #section{
 	border: none;
+}*/
+
+
+
+
+
+body{
+	font-size: 100%;
 }
+
+
+/*a[href^="#link"]{
+	background-color: orange;
+}
+
+a[href*="google"]{
+	background-color: red;
+	color: white;
+}
+
+a[href*=".org"]{
+	background-color: green;
+	font-size: 24px;
+}*/
+
+
+#comb{
+	border: solid 2px blue;
+}
+
+li:first-child + li{
+	color: blue;
+	background-color: red;
+}
+
+footer{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 20px 0;
+	border: solid 2px green;
+}
+footer p{
+	background-color: orange;
+}
+
+span ~ p{
+	background-color: #3E2723;
+	color: white;
+}
+
+
+
+#main-parent{
+	background-color: lightgrey;
+}
+#main-parent span{
+	display: block;
+}
+
+#main-parent > div{
+	border: solid 1px red;
+}
+
+
+
+
+
 
 
 

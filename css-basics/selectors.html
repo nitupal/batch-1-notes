@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CSS selectors</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/selectors.css">
+</head>
+<body>
+	<div class="container">
+
+		<header>
+			<h1>CSS Selectors</h1>
+			<h4>Defines the elements to which a set of CSS rules apply</h4>
+		</header>
+
+		<main class="main">
+			<p>CSS selectors are categorized into:</p>
+			
+			<div class="selectors">
+				<ul>
+				<li><a href="#simple">Simple selectors</a>
+					<ul>
+						<li><a href="#type">Type / Tag selector</a></li>
+						<li><a href="#class">Class selector</a></li>
+						<li><a href="#">Id selector</a></li>
+						<li><a href="#">Universal selector</a></li>
+						<li><a href="#attr">Attribute selector</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Combinators</a>
+					<ul>
+						<li><a href="#">Adjacent sibling combinators</a></li>
+						<li><a href="#">General sibling combinators</a></li>
+						<li><a href="#">Child combinators</a></li>
+						<li><a href="#">Descendant combinators</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Pseudo classes</a>
+					<ul>
+						<li><a href="#">:active</a></li>
+						<li><a href="#">:checked</a></li>
+						<li><a href="#">:disabled</a></li>
+						<li><a href="#">:first-child</a></li>
+						<li><a href="#">nth-child</a></li>
+						<li><a href="#">:last-child</a></li>
+						<li><a href="#">:hover</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Pseudo elements</a>
+					<ul>
+						<li><a href="#">::after</a></li>
+						<li><a href="#">::before</a></li>
+						<li><a href="#">::cue</a></li>
+						<li><a href="#">::first-line</a></li>
+						<li><a href="#">::first-letter</a></li>
+					</ul>
+				</li>
+			</ul>
+			</div>
+
+			<section id="simple">
+				<div id="type"><!-- Type selector -->
+					<h3>Type selector</h3>
+					<p>Selects all elements that match the given node name. It selects all elements of the given type within a document</p>
+					<div class="syntax">
+						<strong>syntax:</strong>
+						<p>element &lcub; style properties &rcub;</p>
+					</div><!-- syntax -->
+					<div class="example">
+						<p>Here is a paragraph element with some content</p>
+						<span>Here is span with more text</span>
+					</div><!-- /.example -->
+				</div><!-- end of type -->
+
+				<div id="attr">
+					<h3>Class selector</h3>
+					<p>Selects all elements that have the given class attribute</p>
+					<div class="syntax">
+						<strong>syntax:</strong>
+						<p>element &lsqb; attr : attr value &rsqb; &lcub; style properties &rcub;</p>
+					</div>
+
+				</div>
+			</section>
+
+		</main>
+	</div>
+</body>
+</html>

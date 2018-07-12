@@ -1,0 +1,32 @@
+What is CSS?
+syntax for writing CSS
+CSS preprocessors
+CSS inheritance
+CSS selectors - 
+	1. Type selectors - define syntax example
+	2. Class selectors - define syntax example
+	3. Id selectors - define syntax example
+	2. Universal selectors - define syntax example
+	2. Attribute selectors - define syntax example
+
+CSS combinators - 
+	1. Adjacent sibling combinator
+	2. General sibling combinator
+	3. child combinator
+	4. Descendant combinator
+
+Pseusdo classes - define syntax example
+	:active
+	:checked
+	:disabled
+	:first-child
+	:nth-child
+	:hover
+
+Pseudo elements - define syntax example
+::after
+::before
+::first-line
+::first-letter
+::cue
+
