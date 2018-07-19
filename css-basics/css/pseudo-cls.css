@@ -70,6 +70,117 @@
 
 
 
+/*pseudo-class*/
+#site-nav{
+	border: solid 1px red;
+}
+
+#site-nav ul{
+	padding-left: 0;
+}
+
+#site-nav ul li{
+	list-style: none;
+}
+
+#site-nav ul li a{
+		color: green;
+}
+#site-nav ul li a:active{
+		color: red;
+}
+#site-nav ul li a:hover{
+	background-color: orange;
+}
+#site-nav > p{
+	cursor: pointer;
+}
+
+#site-nav button{
+	border: none;
+	outline: none;
+	background-color: lightblue;
+	padding: 10px 25px;
+	cursor: pointer;
+	color: blue;
+	font-size: 15px;
+	width: 120px;
+}
+#site-nav button:hover{
+	background-color: #E65100;
+	color: #fff;
+}
+
+/*first-child*/
+.section-one p:first-child{
+	font-size: 24px;
+	color: #f1f1f1;
+	padding: 10px;
+	background-color: grey;
+}
+
+/*first-of-type*/
+.section-two :first-of-type{
+	background-color: pink;
+}
+
+/*nth-child*/
+.section-three ul{
+	background-color: lightgrey;
+	border: solid 1px red;
+	padding-left: 20px;
+}
+.section-three ul li{
+	color: #212121;
+	font-size: 18px;
+	font-family: sans-serif;
+	list-style: none;
+	padding: 10px;
+}
+/*.section-three ul li:nth-child(2n+1){
+	background-color: #fff;
+}
+.section-three ul li:nth-child(2n){
+	background-color: orange;
+}*/
+.section-three ul li:nth-child(3n){
+	background-color: blue;
+	color: #fff;
+}
+
+
+/*:target pseudo-class;*/
+.section-four p{
+	font-family: sans-serif;
+	color: #212121;
+	font-weight: normal;
+	padding: 10px 25px;
+	background-color: lightblue;
+	font-size: 16px;
+	line-height: 1.45em;
+}
+.section-four p:target{
+	background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 
 

@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/pseudo-cls.css">
 </head>
 <body>
-	<div class="container">
+	<div class="container"><!-- container -->
 		<h1>Pseudo classes</h1>
 		<strong>I am a strong text
 			<span>I am visible only when hovered</span>
@@ -24,6 +24,80 @@
 			</ul>
 		</div>
 		
-	</div>
+		<!-- pseudo-class -->
+		<div id="site-nav">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#">GIS</a></li>
+				<li><a href="#">IT services</a></li>
+				<li><a href="#">B2B tech</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<p>Lorem ipsum</p>
+			<button value="send">send</button>
+		</div><!-- /#site-nav -->
+		
+
+		<!-- first-child -->
+		<div class="section-one">
+			<p>This test is the first child</p>
+			<p>This text can't be selected</p>
+			<span>This is a span element</span>
+			<p>This text can't be selected</p>
+			<p>This text can't be selected</p>
+		</div>
+
+		<!-- first-of-type -->
+		<div class="section-two">
+			<p>This p is the first</p>
+			<p>This is nested element</p>
+			<p>This <em>nested</em> 'em' is first</p>
+			<p>This is the final <span>I will note be selected</span>element</p>
+		</div>
+
+		<!-- nth-child -->
+		<div class="section-three">
+			<ul class="list">
+				<li>Item one</li>
+				<li>Item Two</li>
+				<li>Item Three</li>
+				<li>Item Four</li>
+				<li>Item Five</li>
+				<li>Item Six</li>
+				<li>Item Seven</li>
+				<li>Item Eight</li>
+				<li>Item Nine</li>
+				<li>Item Ten</li>
+				<li>Item Eleven</li>
+				<li>Item Twelve</li>
+			</ul>
+		</div><!-- /.section-three -->
+
+
+
+		<!-- :target -->
+		<div class="section-four">
+			<h2>table of contents</h2>
+			<ul>
+				<li><a href="#para-1">This takes me to first section</a></li>
+				<li><a href="#para-2">This takes me to second section</a></li>
+				<li><a href="#">This link doesn't take me to anywhere because target down;t exist</a></li>
+			</ul>
+
+			<h2>
+				<p id="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos architecto ab, ullam, neque, nihil quas sunt nesciunt a illo sapiente ad beatae quae maxime! Quo unde libero sit repellat sed!</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quam maxime mollitia eveniet, fugit suscipit impedit laboriosam dicta omnis. Officiis et, neque adipisci. Iusto, veniam amet sunt voluptatum ea? Iure unde, molestiae eligendi accusamus? Doloremque, ex. Temporibus obcaecati aliquam officiis dolor harum nihil amet laudantium minus beatae delectus non veritatis quam a reiciendis doloribus, ipsum explicabo vitae, sint error iusto sapiente earum animi ut! Voluptatibus magni quas, vitae blanditiis repellat dicta culpa, quidem atque dolorem esse quam laboriosam reprehenderit minima suscipit fuga sunt harum inventore in at perspiciatis quod. Quia porro, iure, nihil eum libero recusandae ipsam tempore impedit unde?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum at eum, quidem blanditiis asperiores suscipit natus, nemo nisi dolorem incidunt quis. Sit eum, ipsam. Fugiat a molestias iusto, impedit debitis? Ipsa possimus reiciendis maiores velit labore non animi quasi molestias minus reprehenderit ratione enim, nisi iure accusamus nemo, nihil culpa doloribus aperiam quidem. Quis atque corporis optio praesentium itaque. Dolore deleniti ipsam reiciendis molestias iusto, facere fuga commodi impedit alias eos consectetur labore saepe placeat in consequuntur dolor laborum voluptate quibusdam excepturi a? Quasi quia animi veritatis sint deleniti quam ipsum ullam, enim dolores ad, magnam soluta culpa omnis aspernatur, iure tenetur possimus exercitationem consectetur expedita reprehenderit eligendi illum error at maiores! Repudiandae inventore deleniti neque voluptates ducimus ut, magnam, officia voluptate eos vitae. Possimus illum optio quaerat qui asperiores consequuntur iste perferendis accusantium, voluptate quasi. Odio, officiis dolore molestiae ratione facilis dolores minus alias saepe corporis ea fugiat ab magnam quis praesentium. Quis libero, asperiores sed et reiciendis numquam non, amet temporibus excepturi officia doloribus? Eligendi officia, sapiente modi deserunt, ullam ipsam. Esse accusamus delectus nihil iste, perspiciatis odio deserunt. Id libero sequi pariatur ea nobis. Quod maxime facilis, rem magnam quis! Tenetur consequuntur maiores, necessitatibus, ullam libero quos.</p>
+
+				<p id="para-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consectetur autem, esse et iusto sint quibusdam reiciendis mollitia laboriosam minima totam distinctio inventore sapiente dolorem id praesentium molestiae possimus recusandae! Sequi quos deserunt fugiat autem quaerat beatae amet eveniet sit.</p><!-- /#para-2 -->
+			</h2>
+		</div><!-- /.section-four -->
+
+
+
+
+	</div><!-- end of container -->
 </body>
 </html>
