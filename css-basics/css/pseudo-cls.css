@@ -164,6 +164,46 @@
 }
 
 
+/*Pseudo-elements*/
+.section-five{
+	padding: 40px 0 40px;
+	margin-bottom: 60px;
+	border: solid 1px red;
+}
+.section-five h3{
+	margin: 0;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #424242;
+}
+.section-five p:first-line{
+	background-color: orange;
+	/*border: solid 1px red;*/
+}
+.section-five p:before{
+	content: "\0040";
+	font-size: 60px;
+	color: blue;
+}
+.section-five p{
+	font-size: 20px;
+	color: #424242;
+	line-height: 1.45em;
+	font-family: sans-serif;
+}
+.section-five p:after{
+	content: "\211C";
+	color: orange;
+	font-size: 40px;
+}
+.section-five span:after{
+	content: "\e912";
+	color: orange;
+	font-size: 40px;
+}
+
+
+
 
 
 
