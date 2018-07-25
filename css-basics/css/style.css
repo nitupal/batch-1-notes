@@ -38,7 +38,6 @@
 .container{
 	margin: 0 auto;
 	max-width: 1170px;
-	border: solid 1px red;
 }
 
 
@@ -53,6 +52,7 @@ body {
 
 p {margin-bottom: 1.3em;
 	color: #212121;
+	margin: 0;
 font-size: 20px;}
 
 h1, h2, h3, h4 {
@@ -85,8 +85,10 @@ small, .font_small {font-size: 0.707em;}
 	font-size: 50px;
 }
 #header .site_nav{
+	width: 100%;
 	text-align: center;
-	border: solid 1px red;
+	padding: 10px;
+	background-color: #5E35B1;
 }
 #header .site_nav ul{
 	padding-left: 0;
@@ -98,8 +100,19 @@ small, .font_small {font-size: 0.707em;}
 #header .site_nav ul li{
 	display: inline-block;
 	list-style: none;
-	margin: 0 10px;
-	border: solid 1px red;
+}
+#header .site_nav ul li a{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 8px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+	transition: 180ms;
+}
+#header .site_nav ul li a:hover{
+	padding-bottom: 5px;
+	border-bottom: solid 2px #fff;
 }
 @media (min-width: 768px) {
 	#header .site_nav ul{
@@ -112,70 +125,51 @@ small, .font_small {font-size: 0.707em;}
 
 /*properties*/
 /*width*/
-.box_width{
+main{
+	width: 100%;
+	margin: 0 auto;
+}
+.demo{
 	border: solid 1px red;
 }
-.viewport p{
-	width: 100%;
-	margin: 0;
-	font-weight: bold;
-	color: green;
-	padding: 8px 15px;
-}
-.viewport .box_width{
-	background-color: lightblue;
+.demo .pixel{
 	text-align: center;
-	font-weight: bold;
-	padding: 20px;
+	margin: 10px 0px;
+	border: solid 1px blue;
 }
-.viewport .box_width.percentage{
+
+.demo-1{
+	margin: 10px 0;
+	max-height: 500px;
+	border: solid 1px red;
+}
+.demo-1 .para-2{
+	min-height: 100px;
+	border: solid 1px green;
+}
+
+
+.card{
+	width: 340px;
+	background-color: #EEE;
+	border: solid 1px;
+}
+.card .picture img{
+	display: block;
 	width: 100%;
 }
-
-.viewport .box_width.pixel{
-	width: 360px;
-}
-
-.viewport .box_width.em{
-	width: 40em;
-	font-size: 6em;
-}
-.viewport .box_width.em div{
-	font-size: 2em;
+.card .content{
+	max-width: 240px;
 	border: solid 1px red;
 }
 
-.viewport .box_width.rem{
-	width: 40rem;
-	font-size: 12rem;
-}
-.viewport .box_width.rem div{
-	font-size: 6rem;
-	border: solid 1px red;
-}
 
 
-/*min-width*/
-.min{
-	background-color: orange;
-	padding: 10px;
-	color: #212121;
-}
 
-.min600{
-	width: 80%;
-	min-width: 600px;
-}
 
-.min320{
-	width: 80%;
-	min-width: 240px;
-}
 
-.min50per{
-	width: 100%;
-	min-width: 440px;
-}
+
+
 
 
 
